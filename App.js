@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
+import { theme } from "./colors";
 
 export default function App() {
   return (
@@ -20,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: theme.bg,
     paddingHorizontal: 20,
   },
   header: {
